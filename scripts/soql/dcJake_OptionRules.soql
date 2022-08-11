@@ -1,0 +1,3 @@
+SELECT IsDeleted, nFORCE__Condition__c, nFORCE__Conditional_Question__c, nFORCE__Option__c, nFORCE__Question__c, nFORCE__lookupKey__c, wmxid__c, wmx_module__c
+FROM nFORCE__Option_Rule__c
+WHERE nFORCE__Question__r.nFORCE__Group__r.Name = 'Flood Questionnaire'

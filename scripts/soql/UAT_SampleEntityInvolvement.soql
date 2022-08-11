@@ -1,0 +1,3 @@
+SELECT Id, FNBO_Primary_Relationship__c, LLC_BI__Account__r.name, LLC_BI__Loan__r.name
+FROM LLC_BI__Legal_Entities__c
+WHERE LLC_BI__Loan__c = 'a3Q3x000000C81OEAS'

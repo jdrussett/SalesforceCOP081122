@@ -1,0 +1,5 @@
+SELECT Id, Name, LLC_BI__Amount__c, LLC_BI__Stage__c, LLC_BI__Status__c, 
+    (SELECT Id, FNBO_Primary_Relationship__c, LLC_BI__Account__r.Name, LLC_BI__Loan__r.Name
+    FROM LLC_BI__Legal_Entities__r)
+FROM LLC_BI__Loan__c
+WHERE Id = 'a3Q3x000000C865EAC'

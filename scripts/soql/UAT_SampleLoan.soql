@@ -1,0 +1,3 @@
+SELECT Id, Name, LLC_BI__Amount__c, LLC_BI__Stage__c, LLC_BI__Status__c
+FROM LLC_BI__Loan__c
+WHERE Id = 'a3Q3x000000C81OEAS'
